@@ -1,0 +1,26 @@
+.navbar{
+    background-color:#077977;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #a09797;
+}
+
+section{
+    margin-top: 20px;
+    text-align: center;
+}
+.container h1{
+    position: absolute;
+    top: 30%;
+    left: 28%;
+    align-items: center;
+}
+.container h3{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    align-items: center;
+}

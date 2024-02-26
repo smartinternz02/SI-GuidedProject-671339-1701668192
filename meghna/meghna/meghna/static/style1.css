@@ -1,0 +1,64 @@
+.navbar {
+    background-color: #077977;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #a09797;
+}
+
+header,
+img {
+    width: 100%;
+    position: fixed;
+}
+
+.text-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-over h2,p{
+    color: #fff;
+}
+
+.text-over button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: black;
+    border: 1px solid rgb(24, 22, 22);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section {
+    margin-top: 100px; /* Increase the margin-top to give space for the fixed header */
+    text-align: center;
+}
+
+/* Center the h1 tag */
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Decrease the size of the form */
+form {
+    max-width: 300px; /* Adjust the max-width to fit the form on one page */
+    margin: 0 auto; /* Center the form horizontally */
+}
+
+/* Center the submit button */
+form input[type="submit"] {
+    display: flex;
+    margin: 0 -5px;
+}
